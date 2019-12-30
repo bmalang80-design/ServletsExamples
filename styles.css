@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{    
+    width: 960px;
+    margin: 10px auto;
+    background: #004c68;
+    color: #d6f8fe;
+    font-size: 2em;
+}
+table{
+    width: 20%
+}
+table,thead, tr, td{
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-top: 1px solid rgb(0, 46, 74);
+    border-bottom: 1px solid rgb(30, 106, 134);
+    border-right: 1px solid rgb(0, 46, 74);
+    border-left: 1px solid rgb(30, 106, 134);
+    text-align: right;    
+}
+td{
+    padding: 10px;
+}
+table tr:hover{
+    background: rgba(255, 255, 255, .4);
+}
+thead{
+    font-size: 1em;     
+}
+
+
+
